@@ -1,0 +1,26 @@
+# requirements.txt
+
+# Core UI
+streamlit>=1.35.0
+
+# OCR Engines
+easyocr>=1.7.1
+transformers>=4.40.0
+
+# Deep Learning Backend
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Image Processing
+Pillow>=10.3.0
+opencv-python-headless>=4.9.0.80
+
+# HuggingFace Utilities
+sentencepiece>=0.2.0
+accelerate>=0.29.0
+
+# Numerical / Array Operations
+numpy>=1.26.0
+
+# PDF Support (optional — for multi-page PDFs)
+pdf2image>=1.17.0
